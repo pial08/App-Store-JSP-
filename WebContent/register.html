@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+
+<title>Sign Up!!!</title>
+
+
+
+
+<link rel="stylesheet" href="css1/style.css">
+
+
+
+
+</head>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Sign Up!!!</title>
+<link rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div id="login">
+
+			<form action="RegisterServletPath" method="get">
+
+				<fieldset class="clearfix">
+
+					<p>
+						<span class="fontawesome-user"></span><input type="text"
+							value="Full Name" name="fullName"
+							onBlur="if(this.value == '') this.value = 'Full Name'"
+							onFocus="if(this.value == 'Full Name') this.value = ''" required>
+					</p>
+					<!-- JS because of IE support; better: placeholder="Username" -->
+
+					<p>
+						<span class="fontawesome-inbox"></span><input type="text"
+							value="Email ID" name="email"
+							onBlur="if(this.value == '') this.value = 'Email ID'"
+							onFocus="if(this.value == 'Email ID') this.value = ''" required>
+					</p>
+					<!-- JS because of IE support; better: placeholder="Username" -->
+
+					<p>
+						<span class="fontawesome-envelope"></span><input type="text"
+							value="Phone No." name="phone"
+							onBlur="if(this.value == '') this.value = 'Address'"
+							onFocus="if(this.value == 'Address') this.value = ''" required>
+					</p>
+					<!-- JS because of IE support; better: placeholder="Username" -->
+
+					<p>
+						<span class="fontawesome-lock"></span><input type="password"
+							name="password" class="form-control" id="inputPassword"
+							placeholder="Password">
+					</p>
+					<!-- JS because of IE support; better: placeholder="Password" -->
+
+					<p>
+						<span class="fontawesome-lock"></span><input type="password"
+							name="passcon" class="form-control" id="inputPassword"
+							placeholder="Confirm Password">
+					</p>
+					<!-- JS because of IE support; better: placeholder="Password" -->
+
+					<p>
+						<input type="submit" value="Sign Up!!!">
+					</p>
+
+				</fieldset>
+
+			</form>
+		</div>
+		<!-- end login -->
+
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
